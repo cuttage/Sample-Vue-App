@@ -72,16 +72,4 @@ body {
   text-indent: -0.5vw;
   padding-left: 0.5vw;
 }
-
-.switcher-enter-active {
-  transition: transform .2s cubic-bezier(1.0, 0.5, 0.8, 1.0) 1s;
-  transition: opacity .19s cubic-bezier(1.0, 0.5, 0.8, 1.0) 1.01s;
-}
-.switcher-leave-active {
-  transition: all .19s cubic-bezier(1.0, 0.5, 0.8, 1.0) 1s;
-}
-.switcher-enter, .switcher-leave-to {
-  transform: translateX(5px);
-  opacity: 0;
-}
 </style>

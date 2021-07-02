@@ -26,10 +26,10 @@ export default {
       statistics: 'statistics'
     }),
     darkCondition() {
-      return this.statistics[0].switchCurrentStatus === true;
+      return this.statistics.length > 0 && this.statistics[0].switchCurrentStatus === true;
     },
     changeTo() {
-      return (this.statistics[0].switchCurrentStatus === false) ? 'dark' : 'light';
+      return (this.statistics.length > 0 && this.statistics[0].switchCurrentStatus === false) ? 'dark' : 'light';
     },
     isDarkW() {
       return (this.darkCondition) ? this.wrapperDark : '';
