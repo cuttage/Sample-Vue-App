@@ -1,13 +1,14 @@
 {
-  "name": "light-dark",
-  "version": "0.1.0",
+  "name": "sample-vue-app-server",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Marta Fattori <martafattori@protonmail.ch> (https://github.com/cuttage/)",
   "description": "",
   "main": "server.js",
   "scripts": {
     "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",

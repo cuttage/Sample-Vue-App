@@ -1,7 +1,8 @@
 {
-  "name": "light-dark",
-  "version": "0.1.0",
+  "name": "sample-vue-app-client",
+  "version": "1.0.0",
   "private": true,
+  "author": "Marta Fattori <martafattori@protonmail.ch> (https://github.com/cuttage/)",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
