@@ -2,6 +2,10 @@
 
 A fully functional Animated Full Stack one-page web app in Vue. The app has its own server. Design and fonts are curated by the author and for showcasing purpose only. This is a custom request example of an advanced web app.
 
+## Available online at
+
+✅ Production: https://sample-vue-app.vercel.app
+
 ## Project setup
 
 ```
